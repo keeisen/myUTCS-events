@@ -1,0 +1,30 @@
+.orgs{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    width: 200px;
+    font-size: 13px;
+  }
+  
+  header {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  label{
+    padding: 2px;
+  }
+
+  button{
+    border-radius: 50px;
+    width: 100%;
+    margin:auto; 
+    display:block;
+  }

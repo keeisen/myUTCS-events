@@ -2,10 +2,27 @@
 <html>
   <head>
     <title>myUTCS-events</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
     <script src="popup.js"></script>
   </head>
+  <header>
+    <h2>My UTCS Calender</h2>
+  </header>
   <body>
-    <h1>myUTCS-events</h1>
-    <button id="search-events">Search for events</button>
-  </body>
+    <div class="orgs">
+      <input type="checkbox" id="WiCS" name="org" value="WiCS">
+      <label for="WiCS">WiCS</label>
+      <input type="checkbox" id="HACS" name="org" value="HACS">
+      <label for="HACS">HACS</label><br>
+      <input type="checkbox" id="ISSS" name="org" value="ISSS">
+      <label for="ISSS">ISSS</label>
+      <input type="checkbox" id="Convergent"name="org" value="Convergent">
+      <label for="Convergent">Convergent</label><br>
+  </div>
+    <button>Get events</button>
+    <p id="demo"></p>
 </html>
+
+
+
+  
